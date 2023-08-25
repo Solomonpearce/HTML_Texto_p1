@@ -189,102 +189,133 @@
 
                <ul>
                 <li>
+                    &lt;article&gt;Representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se
+                    destina a distribuir de forma independiente o re-utilizable.
+
+                </li>
+               </ul> 
+
+
+               <ul>
+                <li>
+                    &lt;h1&gt; a &lt;h6&gt;:encabezados o títulos del documento con diferente relevancia.
+
+                </li>
+               </ul> 
+
+               <ul>
+                <li>
+                    &lt;table&gt;:Define una tabla.
+                        <ul>
+                        <li>
+                            &lt;tr&gt;:fila de una tabla.
+                        </li>
+                        <li>
+                            &lt;td&gt;:celda de una tabla(debe estar dentro de una fila).
+
+                        </li>
+                        </ul>
+                </li>
+               </ul>
+               
+               
+               <ul>
+                <li>
+                    &lt;footer&gt;:representa el pie de un documento o sección. La información que se suele añadir en este bloque es el
+                    autor del documento, enlaces a contenido relacionado, información de copyright, avisos legales, etc.
+                </li>
+               </ul> 
+
+               <ul>
+                <li>
+                    &lt;a&gt;:hipervínculo o enlace, dentro o fuera del sitio web. Debe definirse el parámetro de pasada por medio del
+                    atributo href. Por ejemplo: &lt;a href="http://www.example.com" title="Ejemplo" target="_blank" tabindex="1"&gt;Ejemplo&lt;/a&gt; se
+                    representa como ejemplo.
+                </li>
+               </ul> 
+
+               <ul>
+                <li>
+                    &lt;div&gt;:  división de la página. Se recomienda, junto con css, en vez de &lt;table&gt; cuando se desea alinear contenido.   
+                </li>
+               </ul> 
+               <ul>
+                <li>
+                    &lt;img&gt;: imagen. Requiere del atributo src, que indica la ruta en la que se encuentra la imagen. Por ejemplo: &lt;img
+                        src="./imágenes/mifoto.jpg" /&gt;. Es conveniente, por accesibilidad, poner un atributo alt="texto alternativo".
+                </li>
+               </ul> 
+
+               <ul>
+                <li>
+                   &lt;ol&gt;: etiqueta para listas ordenadas.
+                </li>
+               </ul> 
+               <ul>
+                <li>
+                    &lt;ul&gt; : etiqueta para listas desordenadas.
 
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;li&gt; :etiqueta elementos de una lista.
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;b&gt;: texto en negrita (etiqueta desaprobada. Se recomienda usar la etiqueta &lt;strong&gt;).
+
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;i&gt;: texto en cursiva (etiqueta desaprobada. Se recomienda usar la etiqueta &lt;em&gt;).
+
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;s&gt;: texto tachado (etiqueta desaprobada. Se recomienda usar la etiqueta &lt;del&gt;). 
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;u&gt;: Antes texto subrayado. A partir de HTML 5 define porciones de texto diferenciadas o destacadas del resto,
+                    para indicar correcciones por ejemplo (etiqueta desaprobada en HTML 4.01 y redefinida en HTML 5).
+
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;main&gt;: división estructural de la página que engloba el contenido principal de la misma. Dentro de esta etiqueta, por ejemplo, encontramos los &lt;article&gt;.
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;span&gt;: Sirve para diferenciar un texto de otro.
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;br&gt;: Sirve para provocar un salto de línea. Esta etiqueta no se cierra.
+
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;hr&gt;: Sirve para provocar un cambio de tema entre párrafos. Esta etiqueta no se cierra.
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
+                    &lt;details&gt; : Sirve para crear una sección desplegable
+
                 </li>
                </ul> 
                <ul>
                 <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
-                </li>
-               </ul> 
-               <ul>
-                <li>
-                    
+                    &lt;summary&gt; : Sirve para crear el título de la sección desplegable.
                 </li>
                </ul> 
             </li>
@@ -292,28 +323,16 @@
         </ul>
         <p>La mayoría de etiquetas deben cerrarse como se abren, pero con una barra ( / ) tal como se muestra en los siguientes ejemplos:</p>
     <li>
-
+        &lt;table&gt;&lt;tr&gt;&lt;td&gt;Contenido de una celda&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;.
     </li>
 
     <li>
-        
+        &lt;script&gt;Código de un script integrado en la págin&lt;/scrip&gt;.
     </li>
 
 
     <li>
-        
+        &lt;header>División estructural en la parte del contenido.&lt;/header>
     </li>
     </main>
-
-
-    <main>
-        <h2>Bienvenido</h2>
-        <p>¡Hola! Bienvenido a mi página web.</p>
-    </main>
-
-    <footer>
-        <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
-    </footer>
 </body>
-
-</html>
